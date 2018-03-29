@@ -1,0 +1,76 @@
+// Place all the styles related to the challenges controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #ede8e8;
+  font-family: "Open Sans";
+}
+
+#wrapper
+{
+  margin: 0;
+  padding: 30px 20px;
+  padding-top: 0;
+  font-family: "Open Sans";
+}
+
+nav
+{
+  padding-top: 5px;
+  height: 40px;
+  width: 100%;
+  background-color: #4c85e0;
+  box-shadow: 0px 0px 5px black;
+  margin-bottom: 10px;
+}
+
+.challenge
+{
+  display: inline-block;
+  border: 3px solid #4c85e0;
+  background-color: #7ea8ea;
+  transition: .3s all ease-in-out;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 4px;
+  margin-right: 10px;
+}
+
+.challenge:hover
+{
+  transform: scale(1.05);
+  background-color: #4c85e0;
+}
+
+.challenge_name
+{
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+img
+{
+  height: 300px;
+  max-width: 550px;
+}
+
+.button
+{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  background-color: #4c85e0;
+  border: 2px solid #5678af;
+  border-radius: 5px;
+  transition: .3s all ease;
+}
+
+.button:hover
+{
+  border: 2px solid #234b8c;
+  border-radius: 12px;
+}

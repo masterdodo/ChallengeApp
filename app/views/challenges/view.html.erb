@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Iziv</title>
+  </head>
+  <body>
+    <nav>
+    <a class="button" href="../">Nazaj</a>
+    </nav>
+    <div id="wrapper">
+      <div id="name"><%= @Challenge.name %></div>
+      <%= image_tag(@Challenge.main_image) %>
+      <div id="name"><%= @Challenge.description %></div>
+    </div>
+  </body>
+</html>
